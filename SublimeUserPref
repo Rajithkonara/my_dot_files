@@ -1,0 +1,31 @@
+{
+
+"color_scheme": "Packages/Colorsublime - Themes/Material.tmTheme",
+	"font_size": 11.5,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 4,
+	"line_padding_top": 2,
+	"save_on_focus_lost": true,
+	"theme": "Boxy Ocean.sublime-theme",
+	"theme_accent_cyan": true,
+	"theme_bar_logo_atomized": true,
+	"theme_bar_shadow_hidden": true,
+	"theme_button_rounded": true,
+	"theme_dirty_colored_always": true,
+	"theme_icons_materialized": true,
+	"theme_scrollbar_rounded": true,
+	"theme_sidebar_highlight_selected_text_only": true,
+	"theme_sidebar_highlight_text_only": true,
+	"theme_sidebar_indent_top_level_disabled": true,
+	"theme_sidebar_size_sm": true,
+	"theme_size_md": true,
+	"theme_tab_highlight_text_only": true,
+	"theme_tab_selected_transparent": true,
+	"theme_tab_selected_underlined": true,
+	"theme_unified": true,
+	"trim_trailing_white_space_on_save": true
+}
+
