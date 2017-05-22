@@ -1,0 +1,5 @@
+ Add a new alias, for example:
+
+ alias master='git checkout master'
+Anytime you are in a directory with a git repo, you can run the command master and it will checkout the master branch for you.
+

@@ -1,0 +1,16 @@
+locate command is fasterthen find 
+
+# First need to update the db
+
+$ sudo updatedb
+
+$ locate filename
+
+# If you want to find all files or directories 
+that contain exactly and only your search criteria, 
+use the “-b” option with the locate command, as follows.
+
+locate -b '\mydata'
+
+
+

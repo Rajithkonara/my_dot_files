@@ -1,0 +1,7 @@
+edit
+
+sudo nano /etc/ssh/sshd_config
+
+change passwordAuthentication to NO
+
+restart the ssh service

@@ -1,0 +1,70 @@
+set nocompatible              " be iMproved, required
+
+so ~/.vim/plugins.vim
+
+
+syntax enable
+" ---------Visulas--------
+set guifont=Ubuntu\Mono\ 13.5
+
+set background=dark
+colorscheme quantum
+set t_CO=256
+
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+set guioptions-=e
+
+set backspace=indent,eol,start
+let mapleader = ','
+set number
+set linespace=20
+
+" ---------Searching--------
+set hlsearch 
+set incsearch
+
+" ---------Split--------
+set splitbelow
+set splitright
+
+nmap <C-J> <C-W><C-J>
+nmap <C-K> <C-W><C-K>
+nmap <C-H> <C-W><C-H>
+nmap <C-L> <C-W><C-L>
+
+" --------Mapping-------
+map! <Leader>ev :tabedit $MYVIMRC
+map! <Leader><space> :nohlsearch<cr>
+
+" Make NerdTree easy to toggle
+nmap <a-1> :NERDTreeToggle<cr>
+nmap <a-r> :CtrlPBufTag<cr>
+
+" Ctrl+v for past
+nmap <C-V> "+gP
+imap <C-V> <ESC><C-V>i
+" Ctrl+c for copy
+vmap <C-C> "+y
+
+" ----- Plugins -----------
+"/
+"/ CtrlP
+"/
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'"
+let g:ctrlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
+nmap <D-p> :CtrlP<cr>
+
+
+
+" ---- Auto-Cmds -----
+"Automatically source the vimrc file on save.
+augroup autosourcing
+      autocmd!
+      autocmd BufWritePost .vimrc source %
+augroup END
+
+
+

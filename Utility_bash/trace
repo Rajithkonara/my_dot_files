@@ -1,0 +1,40 @@
+#find ip address,mail servers
+
+nslookup (enter)
+set type=mx (enter)
+yahoo.com
+
+#find packet travel
+tracert www.google.com
+
+# arp : 
+This command will show you the arp table. You can find out if anyone has done arp poisoning in your LAN using this command.
+
+arp -a
+
+#route
+route : This command will show you the routing table, gateway, 
+
+#ipconfig
+Ip dns gateway
+
+Also, in case you have a dynamic IP and want to change it, then type…
+
+Code:
+ipconfig /release (this will release your IP)
+
+ipconfig /renew (this will renew your iP)
+
+#netstat 
+
+Code:
+netstat -a (this will show you all the listening ports and connection with DNS names)
+netstat -n (this will show you all the open connection with IP addresses)
+netstat -an (this will combined both of the above)
+
+
+
+#for more
+
+
+http://www.techworm.net/2016/07/best-cmd-commands-used-hacking.html

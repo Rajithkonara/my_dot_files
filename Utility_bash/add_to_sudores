@@ -1,0 +1,3 @@
+cat /etc/sudoers
+
+copy the /etc/sudoers.d/user and edit to give permission

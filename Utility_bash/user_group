@@ -1,0 +1,119 @@
+/etc/X11/xorg.conf  -- gui config 
+
+configuration is possible by editing the standard NTP configuration file (/etc/ntp.conf) for Linux NTP utilities.
+
+package managers 
+
+Dabian - apkg installer  via apt
+Red hat  RPM -  openSUSE, Mandriva, CentOS, Oracle Linux  . ---- yum (Yellowdog Updater, Modified - the package manager used by Fedora and Red Hat Enterprise Linux),
+
+Before openSUSE 13.1, Apper was used for Software Management.
+
+ Now it has been replaced by the YaST (Yet another System Tool)
+
+The man pages are often converted to:
+
+Web pages
+Published books
+Graphical help
+Other formats
+The man pages are divided into nine numbered chapters (1 through 9). 
+n	Go to the next node
+p	Go to the previous node
+u	Move one node up in the index
+
+Package Documentation 
+Such information is placed under the /usr/share/doc directory
+
+ df -Th (disk-free) 
+
+Network files ->sudo service nfs start
+
+Mout to server --> $ mount servername:/projects /mnt/nfs/projects
+
+Certain filesystems like the one mounted at /proc are called pseudo filesystems because they have no permanent presence anywhere on disk.
+
+/proc filesystem contains vertual file systems
+
+
+/etc/fstab auomatically mounts
+
+
+Commands that are not essential for the system in single-user mode are placed in the /usr/bin directory, while the /sbin directory is used for essential binaries related to system administration, such as ifconfig and shutdown. There is also a /usr/sbin directory for less essential system administration programs.
+
+
+rsync is a very powerful utility. For example, a very useful way to back up a project directory might be to use the following command:
+
+$ rsync -r project-X archive-machine:archives/project-X
+
+Add new User --> $ sudo useradd turkey
+
+Note that for openSUSE, useradd is not in the normal user's PATH so the command should be:
+
+$ sudo /usr/sbin/useradd turkey
+
+
+Delete ---> userdel turkey
+
+Adding a new group is done with groupadd:
+
+$ sudo /usr/sbin/groupadd anewgroup
+
+The group can be removed with
+
+$ sudo /usr/sbin/groupdel anewgroup
+
+
+and then add the new group:
+
+$ sudo /usr/sbin/usermod -G anewgroup turkey
+$ groups turkey
+turkey: turkey anewgroup
+
+Removing a user from the group is a somewhat trickier. The -G option to usermod must give a complete list of groups. Thus if you do:
+
+$ sudo /usr/sbin/usermod -G turkey turkey
+$ groups turkey
+turkey : turkey
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

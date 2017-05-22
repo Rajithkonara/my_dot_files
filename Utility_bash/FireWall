@@ -1,0 +1,29 @@
+
+Ufw
+
+sudo ufw status ----
+
+/// deny incomings
+
+sudo utw default deny incoming
+
+//allow 
+
+sudo utw default allow outgoing
+
+//allowing ports
+
+sudo ufw allow ssh
+
+for vagrant and some
+
+sudo ufw allow 222/tcp
+
+//allow http
+
+sudo ufw allow www
+
+//enable Firewall
+
+sudo utf enable 
+

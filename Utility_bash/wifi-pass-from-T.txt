@@ -1,0 +1,5 @@
+cd etc/NetworkManager/system-connections/
+
+ls -a
+
+sudo cat WIFI_SSID_Name

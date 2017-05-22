@@ -1,0 +1,3 @@
+# 
+
+sudo teamviewer --daemon disable
