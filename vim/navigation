@@ -1,0 +1,18 @@
+#key movements
+
+l ---- right
+
+k ---- move up
+
+h ---- left
+
+j ---- move down
+
+#
+
+w ---- cursor at begining
+
+e ---- curson position at end
+
+b ---- back word beginig
+

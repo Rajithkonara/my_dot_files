@@ -1,0 +1,56 @@
+:w to save
+:w practise.js
+
+:e to edit a file
+
+
+i insert mode
+
+:wq exit vim
+
+:pwd working dir
+
+j --- go down
+
+k --- go up
+
+l --- go right
+
+h ---- go left
+
+v --visual mode
+
+V --- select line
+
+o -- goto new line
+
+select all and hit d
+
+tabedit filename  -- open new tab
+
+bd  -----close tab
+
+/searchkey --- goto
+
+gg  ---- goto top
+
+n - for next
+
+V, y,
+ p     --------- copy texy
+
+ 
+
+/////commandss/////
+
+map! ,e <emphasis>
+map! ,p <para>
+map <F3> v/>^Mx
+
+
+so % --- source current vim file
+
+
+<cr>  -- hit return
+
+tabc -- close single tab
