@@ -1,5 +1,4 @@
-##
-
-# search recursively 
-
+#search recursively 
+```sh
 $ grep -r toggle dir/ 
+```

@@ -1,16 +1,12 @@
 ## Grep
 
-#find specific info in Files
-
-//grep name file
-
+grep name file
+```sh
 $ grep version package.json
-
+```
 # Multiple Matches
-
-// grep "value" file1 file2
-
+```sh
 $ grep  "#" file1.md file.md
-
+```
 
 

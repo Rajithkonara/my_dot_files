@@ -1,3 +1,4 @@
+```sh
 #!/bin/bash
 
 google() {
@@ -9,3 +10,4 @@ google() {
     google-chrome "http://www.google.com/search?q=$search"
 }
 google $@   #passing argument
+```
