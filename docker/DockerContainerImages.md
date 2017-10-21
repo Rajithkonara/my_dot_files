@@ -4,10 +4,21 @@
 - Default Commands
 - Building Containers
 - Launching New Image
-
-# FROM nginx:1.11-alpine
-# COPY index.html /usr/share/nginx/html/index.html
-# EXPOSE 80
-# CMD ["nginx", "-g", "daemon off;"]
-# docker build -t mywebserver:latest
-# docker run -d -p 80:80 <image-id|friendly-tag-name>
+```sh
+ FROM nginx:1.11-alpine
+ ```
+ ```sh
+ COPY index.html /usr/share/nginx/html/index.html
+ ```
+ ```sh
+ EXPOSE 80
+ ```
+ ```sh
+ CMD ["nginx", "-g", "daemon off;"]
+ ```
+ ```sh
+ docker build -t mywebserver:latest
+ ```
+ ```sh
+ docker run -d -p 80:80 <image-id|friendly-tag-name>
+ ```
