@@ -1,7 +1,8 @@
-#show what will delete
+- show what will delete
 
-git clean -n
+   `git clean -n
+   `
+- delete files
 
-#delete files
-
-git clean -f
+   ` git clean -f
+   `
