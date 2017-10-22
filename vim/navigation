@@ -8,11 +8,12 @@ h ---- left
 
 j ---- move down
 
-#
+
 
 w ---- cursor at begining
 
 e ---- curson position at end
 
-b ---- back word beginig
+b ---- back word beginning
 
+gg ---- goto top

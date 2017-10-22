@@ -1,0 +1,52 @@
+:w to save
+
+:e to edit a file
+
+i insert mode
+
+:wq exit vim
+
+:pwd working dir
+
+v - visual mode
+
+V - select line
+
+o - goto new line
+
+Delete selected text - select all and hit d
+
+:tabedit filename - open new tab
+
+:tabn - go to next tab
+
+:tabp - go to previous tab
+
+:bd - close tab
+
+:tabc - close current tab
+
+/searchkey - goto
+
+V , y , p  -  copy past
+
+yy , p - copy past
+
+.  - for last commad
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

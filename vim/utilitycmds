@@ -1,0 +1,53 @@
+/////commandss/////
+
+map! ,e <emphasis>
+map! ,p <para>
+map <F3> v/>^Mx
+
+
+so % --- source current vim file
+
+
+<cr>  -- hit return
+
+
+
+//////////////splits 
+
+vsp -- vertical splits
+
+:sp --- horiaontal split
+
+ctrt+w+^ swith panes
+
+
+:bp --- go to previous file 
+
+or b1,3,4,
+
+
+///browsing
+
+e. 
+
+
+-  key   -- to open upper pane
+
+- agin to go up 
+
+d -- create a dir 
+
+D -- delete file
+
+% -- new File
+
+
+////Nerd Tree
+
+:NERDTreeToggle 
+
+alt + 1
+
+CtrlP + like sublime
+
+CtrlPBufTag  -- symbols
