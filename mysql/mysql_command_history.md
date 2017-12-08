@@ -1,0 +1,3 @@
+`
+less ~/.mysql_history
+`
