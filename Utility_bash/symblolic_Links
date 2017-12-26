@@ -1,2 +1,8 @@
 cd /usr/bin
 sudo ln -s /path/to/binary binary-name
+
+Eg: sublime text subl 
+
+`sudo ln -s /opt/sublime/sublime_text /usr/bin/subl
+`
+
