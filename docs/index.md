@@ -5,11 +5,10 @@
 layout: default
 overview: true
 ---
-
 testr
 
 [changing_a_commit_mgs](https://github.com/Rajithkonara/my_dot_files/blob/master/git/changing_a_commit_mgs.md)
 
-[a workaround link](git/changing_a_commit_mgs.md)
+[a workaround link](/git/changing_a_commit_mgs.md)
 
 [a relative link](https://github.com/Rajithkonara/my_dot_files/blob/master/git/changing_a_commit_mgs.md)
